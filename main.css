@@ -1,0 +1,19 @@
+:root{
+    --custom-primary-bg:#264653;
+    --custom-cta:#E76F51;
+}
+/* custom background */
+.custom-bg{
+    background-color: var(--custom-primary-bg,#264653);
+}
+/* custom background for all btn */
+.custom-btn{
+    background-color: var(--custom-cta,#E76F51);
+}
+.custom-pt{
+    padding-top: 2em;
+}
+/* added extra padding on hero sectio */
+.hero{
+    padding: 10em 0 3em 0;
+}
