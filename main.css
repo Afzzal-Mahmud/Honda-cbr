@@ -21,6 +21,17 @@
 .custom-features{
     padding: 5em 0;
 }
+section.custom-features #custom-grayscale{
+    cursor: crosshair;
+    transition: .4s ease;
+    -webkit-filter: grayscale(1);   
+            filter: grayscale(1);   
+}
+
+.custom-features #custom-grayscale:hover{
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+}
 .custom-featur-title{
     margin-bottom: 6em;
 }
