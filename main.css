@@ -43,3 +43,18 @@
 .fas{
     color: var(--custom-cta,#E76F51);
 }
+
+/* faq section */
+
+section.faq{
+    padding-top: 6em;
+}
+.faq h3{
+    padding-bottom: 2em;
+}
+.faq h3 span{
+    color: var(--custom-cta,#E76F51);
+}
+section.faq .custom-accordion{
+    margin-top: 4em;
+}
