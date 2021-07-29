@@ -2,6 +2,9 @@
     --custom-primary-bg:#264653;
     --custom-cta:#E76F51;
 }
+body{
+    background-color: #F0F0F0;
+}
 /* custom background */
 .custom-bg{
     background-color: var(--custom-primary-bg,#264653);
@@ -75,3 +78,7 @@ section.faq .custom-accordion{
 }
 
 
+/* footer bg-color */
+footer{
+    background-color: #070a1d;
+}
