@@ -6,13 +6,26 @@
 .custom-bg{
     background-color: var(--custom-primary-bg,#264653);
 }
-/* custom background for all btn */
+/* custom background for all btn and also font color*/
 .custom-btn{
     background-color: var(--custom-cta,#E76F51);
 }
+
+
+/*similar style uses as all section */
+
+.faq h3 span,.clients h3 span,.services h3 span,.custom-featur-title span{
+    color: var(--custom-cta,#E76F51);
+}
+
+.clients h3,.faq h3,.services h3{
+    margin-bottom: 2em;
+}
+
 .custom-pt{
     padding-top: 2em;
 }
+
 /* added extra padding on hero sectio */
 .hero{
     padding: 10em 0 3em 0;
@@ -21,6 +34,7 @@
 .custom-features{
     padding: 5em 0;
 }
+/* grayscale code for images */
 section.custom-features #custom-grayscale{
     cursor: crosshair;
     transition: .4s ease;
@@ -35,37 +49,29 @@ section.custom-features #custom-grayscale{
 .custom-featur-title{
     margin-bottom: 6em;
 }
-.custom-featur-title span{
-    color: #E76F51;
-}
 
 /* client section */
 .custom-address{
     color: #23A6F0;
 }
-.clients h3 span{
-    color: var(--custom-cta,#E76F51);
-}
-/* add custom margin on clients section heading */
-.clients h3{
-    margin-bottom: 2em;
-}
-/* change star icon color */
+
+/* all icon */
 .fas{
     color: var(--custom-cta,#E76F51);
 }
+/* services section */
+.fa-tools,.fa-headset,.fa-people-carry{
+    font-size: 6em;
+}
+
 
 /* faq section */
 
-section.faq{
+section.faq,.services{
     padding-top: 6em;
-}
-.faq h3{
-    padding-bottom: 2em;
-}
-.faq h3 span{
-    color: var(--custom-cta,#E76F51);
 }
 section.faq .custom-accordion{
     margin-top: 4em;
 }
+
+
